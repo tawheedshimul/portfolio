@@ -1,0 +1,80 @@
+
+/* navbar start */
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: tomato;
+    padding: auto;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    color:white;
+    font-family: cursive;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+    color: whitesmoke;
+}
+
+nav ul li:hover{
+    color:tomato;
+    background-color: white;
+    border-radius: 20px;
+    padding:15px;
+}
+
+.registration{
+    color:tomato;
+    background-color: azure;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+}
+
+/* navbar end  */
+.topbar{
+    display: flex;
+    justify-content: space-between;
+}
+.topbanner{
+
+}
+h1{
+    font-family: 'Bree Serif', serif;
+
+}
+.topa{
+    width: 50%;
+    padding-left: 5%;
+    text-align: justify;
+}
+topb{
+    align-items: right;
+
+}
+.ncolor{
+    color:tomato;
+}
+.linkb{
+    text-decoration: none;
+    color:white;
+    padding:8px;
+    border-radius: 50px;
+    background-image: linear-gradient(tomato, orange);
+    font-weight: 800
+
+}
+
+h3{
+    font-weight: ;
+    font-family: Arial, Helvetica, sans-serif;
+}
