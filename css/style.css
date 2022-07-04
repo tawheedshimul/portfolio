@@ -22,19 +22,24 @@ nav{
     color:white;
     font-family: cursive;
     cursor: pointer;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px;
 }
 nav ul li{
     display: inline-block;
     list-style-type: none;
-    padding: 10px 30px;
+    padding: 5px 30px;
     color: whitesmoke;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 20px;
+
 }
 
 nav ul li:hover{
     color:tomato;
-    background-color: white;
+    background-image: linear-gradient(white, whitesmoke);
     border-radius: 20px;
-    padding:15px;
+    padding: 5px 30px;
 }
 
 .registration{
@@ -83,9 +88,9 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* contenta start  */
-.contenta{
-    display:flex;
+/* exp  */
+.exp{
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
