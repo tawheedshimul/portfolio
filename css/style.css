@@ -1,3 +1,7 @@
+body{
+    margin:0px;
+}
+
 
 /* navbar start */
 .navbar{
@@ -77,4 +81,11 @@ topb{
 h3{
     font-weight: ;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* contenta start  */
+.contenta{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
